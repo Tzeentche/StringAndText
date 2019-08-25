@@ -6,6 +6,5 @@ package edu.epam.StringArray.task5;
 public class KillSpaces {
 
     public static void main(String[] args) {
-        
-    }
+           }
 }

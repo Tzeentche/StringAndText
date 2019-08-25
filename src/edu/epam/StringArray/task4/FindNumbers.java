@@ -5,6 +5,6 @@ package edu.epam.StringArray.task4;
 public class FindNumbers {
 
     public static void main(String[] args) {
-        
+
     }
 }

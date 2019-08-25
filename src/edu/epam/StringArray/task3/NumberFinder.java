@@ -5,6 +5,6 @@ package edu.epam.StringArray.task3;
 public class NumberFinder {
 
     public static void main(String[] args) {
-        
+
     }
 }

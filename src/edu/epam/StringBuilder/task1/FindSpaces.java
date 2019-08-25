@@ -4,6 +4,6 @@ package edu.epam.StringBuilder.task1;
 public class FindSpaces {
 
     public static void main(String[] args) {
-        
+
     }
 }

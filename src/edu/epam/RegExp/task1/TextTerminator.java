@@ -8,6 +8,6 @@ package edu.epam.RegExp.task1;
 public class TextTerminator {
 
     public static void main(String[] args) {
-        
+
     }
 }

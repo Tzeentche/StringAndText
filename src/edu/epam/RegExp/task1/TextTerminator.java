@@ -10,4 +10,29 @@ public class TextTerminator {
     public static void main(String[] args) {
 
     }
+
+    String textCollector() {
+
+        return "";
+    }
+
+    String paragraphSorting() {
+
+        return "";
+    }
+
+    String wordSrting() {
+
+        return "";
+    }
+
+    String lexemSorting() {
+
+        return "";
+    }
+
+    String output() {
+
+        return "";
+    }
 }

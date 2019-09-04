@@ -7,4 +7,20 @@ public class NumberFinder {
     public static void main(String[] args) {
 
     }
+
+    String stringHolder() {
+
+        return "";
+    }
+
+    String numbersCalc() {
+
+        return "";
+    }
+
+    String resultOutput() {
+
+        return "";
+    }
+
 }

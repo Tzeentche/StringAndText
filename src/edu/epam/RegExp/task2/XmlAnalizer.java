@@ -24,4 +24,19 @@ public class XmlAnalizer {
     public static void main(String[] args) {
 
     }
+
+    String textHolder() {
+
+        return "";
+    }
+
+    String xmlNdes() {
+
+        return "";
+    }
+
+    String resultOutput() {
+
+        return "";
+    }
 }

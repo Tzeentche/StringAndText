@@ -26,4 +26,19 @@ public class CamelToSnake {
             System.out.println("The size of the array out of bounds.");
         }
     }
+
+    String arrayNames() {
+
+        return "";
+    }
+
+    String camelToSnake() {
+
+        return "";
+    }
+
+    String outputResult() {
+
+        return "";
+    }
 }

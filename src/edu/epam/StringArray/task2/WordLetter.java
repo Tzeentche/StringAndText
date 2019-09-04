@@ -8,4 +8,19 @@ public class WordLetter {
 
 
     }
+
+    String textCollector() {
+
+        return "";
+    }
+
+    String wordsChange() {
+
+        return "";
+    }
+
+    String outputResult() {
+
+        return "";
+    }
 }

@@ -5,7 +5,7 @@ package edu.epam.StringBuilder.task4;
 public class Cake {
 
     public static void main(String[] args) {
-        
+
     }
 
     String enteredString() {

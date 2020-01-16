@@ -6,6 +6,6 @@ package edu.epam.StringBuilder.task10;
 public class StringX {
 
     public static void main(String[] args) {
-        
+
     }
 }

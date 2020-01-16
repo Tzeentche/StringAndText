@@ -6,5 +6,24 @@ package edu.epam.StringArray.task5;
 public class KillSpaces {
 
     public static void main(String[] args) {
-           }
+
+    KillSpaces killSpaces = new KillSpaces();
+    killSpaces.newSentence();
+    }
+
+    private void newSentence() {
+
+    }
+
+    private void kloneKiller() {
+
+    }
+
+    private void spaceKiller() {
+
+    }
+
+    private void outputResult() {
+
+    }
 }

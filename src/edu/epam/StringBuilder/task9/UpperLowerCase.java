@@ -7,6 +7,6 @@ public class UpperLowerCase {
 
     public static void main(String[] args) {
 
-        
+
     }
 }

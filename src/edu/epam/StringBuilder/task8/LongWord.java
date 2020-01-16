@@ -6,6 +6,6 @@ package edu.epam.StringBuilder.task8;
 public class LongWord {
 
     public static void main(String[] args) {
-        
+
     }
 }

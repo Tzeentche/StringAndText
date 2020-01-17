@@ -20,6 +20,6 @@ public class StringX {
     }
 
     private void resultOutput() {
-        
+
     }
 }

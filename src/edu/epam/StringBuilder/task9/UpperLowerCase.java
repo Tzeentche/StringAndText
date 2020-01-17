@@ -26,6 +26,6 @@ public class UpperLowerCase {
     }
 
     private void result() {
-        
+
     }
 }

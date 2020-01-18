@@ -2,30 +2,62 @@ package edu.epam.StringBuilder.task6;
 
 //      Из заданной строки получить новую, повторив каждый символ дважды.
 
+import java.util.*;
+import java.util.regex.*;
+
 public class DoubleSimbols {
 
     public static void main(String[] args) {
 
-
+        DoubleSimbols doubleSimbols = new DoubleSimbols();
+        doubleSimbols.enteredString();
     }
 
-    String enteredString() {
+    private void enteredString() {
 
-        return "";
+        String someText = "";
+        Scanner scn = new Scanner(System.in);
+
+        System.out.println("Please, enter your text!");
+
+        try {
+
+            someText = scn.nextLine();
+            scn.close();
+
+        } catch(InputMismatchException ex1) {
+
+            System.out.println("You was broken everything!");
+        }
+
+        separator(someText);
     }
 
-    String separator() {
+    private void separator(String usersInput) {
 
-        return "";
+        String[] charsArray = usersInput.split("");
+        System.out.println("Here we have next result: " + charsArray);
+
+        doubleFunction(charsArray);
     }
 
-    String counter() {
+    private void doubleFunction(String[] datasArray) {
 
-        return "";
+        String[] resultExpression = new String[(datasArray.length * 2)];
+
+        for(int counter = 0; counter < datasArray.length; counter++) {
+
+            Pattern pattern = Pattern.compile("[.]");
+            Matcher match = pattern.matcher(datasArray[counter]);
+
+            if (match.find()) {
+
+                
+            }
+        }
     }
 
-    String output() {
+    private void output() {
 
-        return "";
     }
 }

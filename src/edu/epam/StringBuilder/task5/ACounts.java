@@ -9,16 +9,22 @@ public class ACounts {
 
     public static void main(String[] args) {
 
+//        Create class example:
+
         ACounts aCounts = new ACounts();
         aCounts.enteredString();
     }
 
     private void enteredString() {
 
+//        Create local variables:
+
         String userInput = "";
         Scanner scn = new Scanner(System.in);
 
         System.out.println("Please, enter your expression with \"a\" on a board: ");
+
+//        Find exceptions:
 
         try {
             userInput = scn.nextLine();
@@ -34,6 +40,8 @@ public class ACounts {
 
     private void aCounter(String someWords) {
 
+//        Declare local variables:
+
         int counter = 0;
         Pattern pattern =Pattern.compile("[a]");
         Matcher match = pattern.matcher(someWords);
@@ -48,6 +56,8 @@ public class ACounts {
 
     private void output(int resultVariable) {
 
+//        Output result:
+        
         System.out.println("After long and hard counting we find, that your sentence has " + resultVariable + " chars \"a\"");
     }
 }

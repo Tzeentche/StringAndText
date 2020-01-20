@@ -9,16 +9,22 @@ public class LongWord {
 
     public static void main(String[] args) {
 
+//        Create class example:
+
         LongWord longWord = new LongWord();
         longWord.usersText();
     }
 
     private void usersText() {
 
+//        Declare local variables:
+
         String text = "";
         Scanner scn = new Scanner(System.in);
 
         System.out.println("Enter your text, please:");
+
+//        Check exceptions:
 
         try {
 
@@ -35,12 +41,15 @@ public class LongWord {
 
     private void charsSplitter(String inputText) {
 
+//      Declare local variable and split user's text by spaces:
 
         String[] textArray = inputText.split("[ ]");
 
         charsCounter(textArray);
     }
     private void charsCounter(String[] usersTextArray) {
+
+//        Declare local variables:
 
         int textLength = usersTextArray[0].length();
         String theLongestWord = "";
@@ -59,6 +68,8 @@ public class LongWord {
 
     private void outputter(String result) {
 
+//        Output result:
+        
         System.out.println("The most long word is " + result + " ! EE!");
     }
 }

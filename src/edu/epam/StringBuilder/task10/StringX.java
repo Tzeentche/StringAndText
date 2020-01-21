@@ -9,13 +9,29 @@ public class StringX {
 
     public static void main(String[] args) {
 
+        StringX stringX = new StringX();
+        stringX.someText();
     }
 
     private void someText() {
 
+        String usersText = "";
+        Scanner scn = new Scanner(System.in);
+
+        try {
+
+            usersText = scn.nextLine();
+            scn.close();
+
+        } catch (InputMismatchException ex1) {
+
+            System.out.println("You done something wrong...");
+        }
+
+        dotsCounter(usersText);
     }
 
-    private void dotsCounter() {
+    private void dotsCounter(String insertExpression) {
 
     }
 

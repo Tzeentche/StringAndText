@@ -15,9 +15,25 @@ public class UpperLowerCase {
 
     private void usersLine() {
 
+        String innerLine = "";
+        Scanner scn = new Scanner(System.in);
+
+        System.out.println("Please, enter the line:");
+
+        try {
+
+            innerLine = scn.nextLine();
+            scn.close();
+
+        } catch (InputMismatchException ex1) {
+
+            System.out.println("Your parameters were insert broke all the system!");
+        }
+
+        lowerCounter(innerLine);
     }
 
-    private void lowerCounter() {
+    private void lowerCounter(String usersExpression) {
 
     }
 
